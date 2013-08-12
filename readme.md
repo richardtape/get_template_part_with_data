@@ -22,16 +22,16 @@ https://github.com/iamfriendly/get_template_part_with_data/issues
 
 = Usage =
 
-`$data = 'Something to pass to the template part';
-$more_data = array( 'some' => 'thing', 'foo' => 'bar' );
+`$data = 'Something to pass to the template part';`
+`$more_data = array( 'some' => 'thing', 'foo' => 'bar' );`
 
-get_template_part_with_data( 'templates/parts/loop', 'main', array( 'data' => $data, 'more_data' => $more_data ) );`
+`get_template_part_with_data( 'templates/parts/loop', 'main', array( 'data' => $data, 'more_data' => $more_data ) );`
 
-Then, in your theme's template/parts/loop-main.php file you use
+Then, in your theme's `template/parts/loop-main.php` file you use
 
-`global $template_data;
-$data = $template_data['data'];
-$more_data = $template_data['more_data'];`
+`global $template_data;`
+`$data = $template_data['data'];`
+`$more_data = $template_data['more_data'];`
 
 == Installation ==
 
@@ -43,8 +43,16 @@ $more_data = $template_data['more_data'];`
 
 None.
 
+== Frequently Asked Questions ==
+
+None as of yet. But feel free to ask away at https://github.com/iamfriendly/get_template_part_with_data/issues
 
 == Changelog ==
 
 = 1.0.0 =
 * Initial Release.
+
+
+== Upgrade Notice ==
+
+None.
