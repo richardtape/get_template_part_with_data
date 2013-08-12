@@ -1,6 +1,7 @@
 === Get Template Part With Data ===
 Contributors: Richard Tape, BRITEWEB
 Tags: template, theme, part, data
+Donate Link: https://www.charitywater.org/donate/
 Requires at least: 3.0.0
 Tested up to: 3.6
 Stable tag: trunk
